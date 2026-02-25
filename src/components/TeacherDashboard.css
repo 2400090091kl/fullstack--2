@@ -1,0 +1,213 @@
+/* TeacherDashboard.css - Modern UX styles */
+
+.td-wrapper {
+  min-height: 100vh;
+  background: #f3f4f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+.td-topbar {
+  background: #2563eb;
+  color: #fff;
+  padding: 18px 36px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px rgba(37,99,235,0.08);
+}
+.td-logout-btn {
+  margin-left: 18px;
+  background: #fff;
+  color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.td-sidebar {
+  width: 240px;
+  background: #fff;
+  border-right: 1.5px solid #e5e7eb;
+  padding: 32px 0 0 0;
+  min-height: 100%;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.03);
+}
+.td-main {
+  flex: 1;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.td-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(37,99,235,0.07);
+  padding: 32px 36px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.td-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
+}
+.td-card-title2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0891b2;
+  margin-bottom: 12px;
+}
+.td-card-title3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #f59e42;
+  margin-bottom: 12px;
+}
+.td-flex-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.td-input,
+.td-textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e293b;
+  outline: none;
+}
+.td-textarea {
+  resize: vertical;
+}
+.td-toggle-btn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+}
+.td-upload-btn {
+  padding: 13px 0;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 180px;
+  align-self: flex-end;
+  box-shadow: 0 1px 4px rgba(37,99,235,0.08);
+}
+.td-upload-card {
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px 22px;
+  min-width: 260px;
+  max-width: 340px;
+  flex: 1;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.td-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+.td-deadline {
+  font-size: 13px;
+  color: #dc2626;
+  font-weight: 500;
+}
+.td-submission-card {
+  background: #eff6ff;
+  border: 1.5px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 18px 22px;
+  min-width: 260px;
+  max-width: 340px;
+  flex: 1;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.td-marks-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.td-marks-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #15803d;
+}
+.td-marks-label {
+  font-size: 12px;
+  color: #475569;
+  font-weight: 500;
+}
+.td-marks-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #86efac;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e293b;
+  outline: none;
+}
+.td-feedback-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #86efac;
+  font-size: 13px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e293b;
+  outline: none;
+  resize: vertical;
+}
+.td-save-btn {
+  padding: 9px 20px;
+  background: #16a34a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+  align-self: flex-start;
+  margin-top: 8px;
+}
+.td-saved-badge {
+  font-size: 13px;
+  font-weight: 600;
+  color: #15803d;
+  background: #dcfce7;
+  padding: 7px 14px;
+  border-radius: 8px;
+  align-self: flex-start;
+}
